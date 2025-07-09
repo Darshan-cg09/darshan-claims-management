@@ -832,7 +832,7 @@ function initializeForm() {
         if (!isValid) return;
 
         try {
-            const response = await fetch('http://56.228.42.16:3070/api/claims', {
+            const response = await fetch('http://13.53.101.150:3604/api/claims', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(claim)
